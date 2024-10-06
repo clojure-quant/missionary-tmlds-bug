@@ -1,0 +1,11 @@
+{:deps {org.clojure/clojure    {:mvn/version "1.11.3"}
+        scicloj/tablecloth {:mvn/version "7.021"}
+        missionary/missionary {:mvn/version "b.40"}}
+ :aliases
+ {:print1 {:exec-fn demo.demo1/print1}
+  :print2 {:exec-fn demo.demo1/print2}
+
+
+ }
+
+}
